@@ -1,5 +1,5 @@
 {
-    "name": "ateitiesit/version",
+    "name": "ateitiesit/laravel-app-version",
     "description": "Semantic Versioning management package for Laravel",
     "keywords": [
         "laravel",
