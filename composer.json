@@ -1,0 +1,30 @@
+{
+    "name": "ateitiesit/version",
+    "description": "Semantic Versioning management package for Laravel",
+    "keywords": [
+        "laravel",
+        "version",
+        "semver"
+    ],
+    "minimum-stability": "stable",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Ateitiesit\\Version\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^7.0|^8.0|^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ateitiesit\\Version\\VersionServiceProvider"
+            ],
+            "aliases": {
+                "Version": "Ateitiesit\\Version\\VersionFacade"
+            }
+        }
+    }
+}
